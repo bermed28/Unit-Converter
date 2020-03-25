@@ -1,16 +1,9 @@
-# Filename: project_1.py
 
-### ADD YOUR NAME, STUDENT ID AND SECTION NUMBER BELOW ###
-# NAME: LOL SCREW YOU JUANO PRIME
-# STUDENT ID: YOU-AR-SOFT
-# SECTION: LOL
-############      DEFINE CONSTANTS BELOW      ############
+############   CONSTANTS    ############
 KILOMETERS_IN_MILE = 1.60934
 MILES_IN_KILOMETER = 0.62137
 POUNDS_IN_KILOGRAM = 0.45359237
 KILOGRAMS_IN_POUND = 2.20462262185
-
-############       ADD YOUR CODE BELOW        ############
 
 def convert_miles_to_kilometers():
     miles = input("Enter the miles to be converted: ")
@@ -123,9 +116,7 @@ def process_conversion(numericOption):
         mphToKmh()
     elif numericOption == 8:
         kmhToMph()
-    # Add code to handle other menu selections.
-
-############ DO NOT MODIFY THE SECTION BELOW  ############
+    # code to handle other menu selections.
 
 def is_float(s):
     try:
